@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CTSQRS - Collect The Squares</title>
+	<meta charset="utf8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/p5.min.js"></script>
+</head>
+<body>
+<div class="pause">PAUSE</div>
+<div class="theend">THE END <br><a href="#" onclick="location.reload()">RESTART</a></div>
+<div class="coins">COINS: <span id="coinsValue"></span><Br>PAUSES: <span id="pausesValue"></span></div>
+<div id="timer"></div></div>
+<div class="info"><a class="howTo" href="#howTo" data-modal-trigger="trigger-1" class="trigger">&raquo; How to play? &laquo;</a></div>
+
+<div id="howTo" class="overlay">
+	<div class="popup">
+		<h2>Collect The Squares<br><span style="color: #ff8c66; letter-spacing: 5px;">CTSQRS</span></h2>
+		<a class="close" href="#">&times;</a>
+		<div class="content">
+			Hello, you need help? It's easy;) <br>Just bring the black square to the orange one with cursor;) <br>On LMB you have PAUSE :) <Br><br>Enjoy!
+		</div>
+	</div>
+</div>
+</body>
+</html>
